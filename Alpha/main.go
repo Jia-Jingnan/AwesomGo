@@ -21,4 +21,10 @@ func main() {
 	// 变量定义方式4
 	var delta, echo, foxtrot = "Delat", "Echo", 4
 	fmt.Println(aplpha, bravo, charlie, delta, echo, foxtrot)
+
+	// 交换两个变量的值
+	var juliet = "我是Juliet"
+	var kilo = "我是Kilo"
+	juliet, kilo = kilo, juliet
+	fmt.Println("julet:"+juliet, "kilo:"+kilo)
 }
