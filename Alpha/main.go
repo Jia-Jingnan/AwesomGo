@@ -36,4 +36,16 @@ func main() {
 	const constMike float64 = 3.1415
 	const constNovember, constOscar = 100, "Oscar"
 	fmt.Println(constMike, constOscar)
+
+	// 预定义的常量
+	// true/false/iota
+	// iota使用
+	const (
+		iotaPapa   = iota //0
+		iotaQuebec = iota //1
+		iotaRomeo  = iota //2
+	)
+
+	const iotaSierra = iota //0
+	fmt.Print(iotaPapa, iotaQuebec, iotaRomeo, iotaSierra)
 }
