@@ -47,5 +47,17 @@ func main() {
 	)
 
 	const iotaSierra = iota //0
-	fmt.Print(iotaPapa, iotaQuebec, iotaRomeo, iotaSierra)
+	fmt.Println(iotaPapa, iotaQuebec, iotaRomeo, iotaSierra)
+
+	//iota使用方式
+	const (
+		Monday = iota
+		Tuesday
+		Wednesday
+		Thurseday
+		Friday
+		Saturday
+		Sunday
+	)
+	fmt.Println(Monday, Tuesday, Wednesday, Thurseday, Friday, Saturday, Sunday)
 }
