@@ -60,4 +60,14 @@ func main() {
 		Sunday
 	)
 	fmt.Println(Monday, Tuesday, Wednesday, Thurseday, Friday, Saturday, Sunday)
+
+	const (
+		iotaTango1, iotaTango2, iotaTango3 = iota, iota, iota
+	)
+	const (
+		iotaUniform1 = iota
+		iotaUniform2 = "Jingnan"
+		iotaUniform3 = iota
+	)
+	fmt.Println(iotaTango1, iotaTango2, iotaTango3, iotaUniform1, iotaUniform2, iotaUniform3)
 }
