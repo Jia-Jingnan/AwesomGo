@@ -31,4 +31,9 @@ func main() {
 	// 定义变量注意事项:大写的变量可以被其他包引用
 	// 定义的变量为被引用会报编译错误
 	// var Lima = "我是Lima"
+
+	// 常量定义
+	const constMike float64 = 3.1415
+	const constNovember, constOscar = 100, "Oscar"
+	fmt.Println(constMike, constOscar)
 }
